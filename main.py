@@ -51,7 +51,7 @@ if __name__=="__main__":
     
     log_loss_res = np.array(log_loss_res)
     acc = np.array(acc)
-    print(f"Overall loss: {np.mean(log_loss_res)}+/- {np.std(log_loss_res)}")
-    print(f"Overall accuracy: {np.mean(acc)}+/- {np.std(acc)}")
+    print(f"Overall loss: {np.mean(log_loss_res)} +/- {np.std(log_loss_res)}")
+    print(f"Overall accuracy: {np.mean(acc)} +/- {np.std(acc)}")
 
     print("all good!")
